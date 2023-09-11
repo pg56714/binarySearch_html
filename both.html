@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>二分搜索圖示化工具</title>
+    <link rel="stylesheet" href="both.css" />
+  </head>
+  <body>
+    <h1 class="animated-title">世紀大對決</h1>
+    <div class="content-wrapper">
+      <div class="container">
+        <h2>懂算法的工程師 - Binary Search</h2>
+        <div class="numbers-container binary-search-container">
+          <!-- Numbers will be generated dynamically using JavaScript -->
+        </div>
+        <div id="binary-step-count">花了幾步: 0</div>
+        <h2>不懂算法的工程師 - Linear Search</h2>
+        <div class="numbers-container linear-search-container">
+          <!-- Numbers will be generated dynamically using JavaScript -->
+        </div>
+        <div id="linear-step-count">花了幾步: 0</div>
+        <div class="controls">
+          <label for="target">Target:</label>
+          <input type="number" id="target" min="1" max="10" value="1" />
+          <button id="start-search">出來面對！</button>
+        </div>
+      </div>
+    </div>
+    <script src="both.js"></script>
+  </body>
+</html>
